@@ -45,7 +45,8 @@ header ul li {
     gap: 10px;
     max-height: 38px;
 }
-header ul li.active {
+header ul li.active
+header ul li:hover {
     background-color: #099080;
     border-bottom: 3px solid #00000042;
     border-radius: 5px;
