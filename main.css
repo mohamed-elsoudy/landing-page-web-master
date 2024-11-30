@@ -129,6 +129,27 @@ section .container {
     flex-direction: column;
     gap: 24px;
 }
+section .container .shape {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+section .container .shape > div {
+    width: 250px;
+    height: 4px;
+    background-color: #0B9586;
+}
+section .container .fill {
+    display: block;
+    background-color: white;
+    width: 80%;
+    height: 100%;
+}
+@media (max-width: 850px) {
+    section .shape {
+        display: none !important;
+    }
+}
 section .container h1 {
     font-weight: 600;
     font-size: 52px;
